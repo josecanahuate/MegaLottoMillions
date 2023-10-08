@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "204699839948",
+    "project_id": "megalotto-millions-2c881",
+    "storage_bucket": "megalotto-millions-2c881.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204699839948:android:649a8f2963034b98fac169",
+        "android_client_info": {
+          "package_name": "com.generator.megalottomillions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204699839948-drhki28epst297m2r0kulbt9prqbd0nu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.generator.megalottomillions",
+            "certificate_hash": "130445f5c3b67474a6e5923cd0e1fd2c1cbe5225"
+          }
+        },
+        {
+          "client_id": "204699839948-952010giptqbjlm2cd88j4nm4pt09940.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjd7odxFkG8rPBIkXmCtvtgFTPrbu1Br0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204699839948-952010giptqbjlm2cd88j4nm4pt09940.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

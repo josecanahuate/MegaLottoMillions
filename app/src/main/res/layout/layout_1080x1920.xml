@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:fontFamily="@font/montserrat_semibold"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="@string/titulo"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+
+                <!-- TABLA DATA-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam41"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam42"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam43"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam44"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam45"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam46"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:backgroundTint="@color/amarillo"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam51"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam52"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam53"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam54"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam55"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam56"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:backgroundTint="@color/amarillo"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:backgroundTint="@color/amarillo"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmm5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmm4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmm3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmm2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmm"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmm21"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:backgroundTint="@color/amarillo"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam10"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam9"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam8"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam7"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam6"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                        <com.robinhood.ticker.TickerView
+                            android:id="@+id/txtmegam31"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/circulo"
+                            android:backgroundTint="@color/amarillo"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            app:ticker_textSize="24sp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btngenerate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/generar"
+            android:textColor="@color/amarillo"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:minHeight="90dp"
+        app:flow_horizontalBias="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/anunciobanner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>
